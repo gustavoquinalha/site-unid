@@ -1,0 +1,171 @@
+<html>
+<head>
+	<title>filmes</title>
+	<link rel="stylesheet" href="../css/css.css" charset="utf-8">
+</head>
+<body>
+<div class="worko-tabs">
+  
+    <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+    <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+    <input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
+    <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
+
+    <div class="tabs flex-tabs">
+        <label for="tab-one" id="tab-one-label" class="tab">
+        	<div class="filme-cartaz f1">
+              <div class="info-filme">
+                <div class="info-film">
+                  <div class="in filme-titulo">
+                    X-MEN Apocalipse
+                  </div>
+                  <div class="in filme-botao">
+                    <button class="btn-escolher-filme" >ESCOLHER</button>
+                  </div>
+                  <div class="in filme-detalhes" onclick="showhide()">
+                    DETALHES<br><i class="fa fa-chevron-down cp" style="font-size:14px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <label for="tab-two" id="tab-two-label" class="tab">
+        	<div class="filme-cartaz f1">
+              <div class="info-filme">
+                <div class="info-film">
+                  <div class="in filme-titulo">
+                    X-MEN Apocalipse
+                  </div>
+                  <div class="in filme-botao">
+                    <button class="btn-escolher-filme" >ESCOLHER</button>
+                  </div>
+                  <div class="in filme-detalhes" onclick="showhide()">
+                    DETALHES<br><i class="fa fa-chevron-down cp" style="font-size:14px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <label for="tab-three" id="tab-three-label" class="tab">
+        	<div class="filme-cartaz f1">
+              <div class="info-filme">
+                <div class="info-film">
+                  <div class="in filme-titulo">
+                    X-MEN Apocalipse
+                  </div>
+                  <div class="in filme-botao">
+                    <button class="btn-escolher-filme" >ESCOLHER</button>
+                  </div>
+                  <div class="in filme-detalhes" onclick="showhide()">
+                    DETALHES<br><i class="fa fa-chevron-down cp" style="font-size:14px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+        <label for="tab-four" id="tab-four-label" class="tab">
+        	<div class="filme-cartaz f1">
+              <div class="info-filme">
+                <div class="info-film">
+                  <div class="in filme-titulo">
+                    X-MEN Apocalipse
+                  </div>
+                  <div class="in filme-botao">
+                    <button class="btn-escolher-filme" >ESCOLHER</button>
+                  </div>
+                  <div class="in filme-detalhes" onclick="showhide()">
+                    DETALHES<br><i class="fa fa-chevron-down cp" style="font-size:14px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+         <label for="tab-five" id="tab-four-label" class="tab">
+        	<div class="filme-cartaz f1">
+              <div class="info-filme">
+                <div class="info-film">
+                  <div class="in filme-titulo">
+                    X-MEN Apocalipse
+                  </div>
+                  <div class="in filme-botao">
+                    <button class="btn-escolher-filme" >ESCOLHER</button>
+                  </div>
+                  <div class="in filme-detalhes" onclick="showhide()">
+                    DETALHES<br><i class="fa fa-chevron-down cp" style="font-size:14px;" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </label>
+
+
+        <div id="tab-one-panel" class="panel">
+          <div class="abre-info">
+              <div class="abre-i">
+                <div class="resumo">
+                  <h2>Transformers:Age of Extinction</h2>
+                  <br>
+                  <p>
+                    <span><strong>Estréia:</strong> 13/10</span> <span><strong>GÊnero(s):</strong> Ação, Suspense</span> <span><strong>Classificação:</strong> 14</span>
+                  </p>
+                  <br>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                  <p>
+                    <br><br><br>
+                    <button class="at">
+                    <i class="fa fa-check cp" style="font-size:14px;" aria-hidden="true"></i> Assistir trailer
+                    </button>
+                    Redes Sociais:
+                  </p>
+                </div>
+              </div>
+              <div class="abre-close">
+                <button class="btn-es-film" id="btn1" onclick="toggleColor()">ESCOLHER</button> <button class="btn-fechar-film" onclick="showhide()">X</button>
+                <br><br>
+              </div>
+            </div>
+        </div>
+        <div id="tab-two-panel" class="panel">
+           <div class="abre-info">
+              <div class="abre-i">
+                <div class="resumo">
+                  <h2>Transformers:Age of Extinction</h2>
+                  <br>
+                  <p>
+                    <span><strong>Estréia:</strong> 13/10</span> <span><strong>GÊnero(s):</strong> Ação, Suspense</span> <span><strong>Classificação:</strong> 14</span>
+                  </p>
+                  <br>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                  <p>
+                    <br><br><br>
+                    <button class="at">
+                    <i class="fa fa-check cp" style="font-size:14px;" aria-hidden="true"></i> Assistir trailer
+                    </button>
+                    Redes Sociais:
+                  </p>
+                </div>
+              </div>
+              <div class="abre-close">
+                <button class="btn-es-film" id="btn1" onclick="toggleColor()">ESCOLHER</button> <button class="btn-fechar-film" onclick="showhide()">X</button>
+                <br><br>
+              </div>
+            </div>
+        </div>
+        <div id="tab-three-panel" class="panel">
+            Tab three content
+        </div>
+        <div id="tab-four-panel" class="panel">
+            Tab four content
+        </div>
+         <div id="tab-five-panel" class="panel">
+            Tab five content
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UNID Cinemídia - Compras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../css/css.css" charset="utf-8">
+  </head>
+  <body>
+    
+      <div class="compra-esp" >
+        <div class="compra-cont">
+          <div class="compra-cidade">
+            <div class="cidade-titulo">
+              <i class="fa fa-arrow-down fa-lg cor-preta" aria-hidden="true"></i> <span>Maringá</span>
+            </div>
+            <div class="area-midias">
+
+              <div class="midias" style="order:1">
+                <button class="accordion">
+                <i class="fa fa-desktop cor-detail" aria-hidden="true"></i> Mídia em tela
+                </button>
+                <div class="panel">
+                  <div class="insercoes">
+                    <p>Inserções 4 / 120 mÊS</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="midias" style="order:1">
+                <button class="accordion">
+                <i class="fa fa-desktop cor-detail" aria-hidden="true"></i> Mídia em tela
+                </button>
+                <div class="panel">
+                  <div class="insercoes">
+                    <p>Inserções 4 / 120 mÊS</p>
+                  </div>
+                </div>
+              </div>
+              
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="compra-botao">
+          <button>Próximo <i class="fa fa-arrow-right cp" style="font-size:14px;" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+    
+     
+      
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("show");
+        }
+      }
+
+      function toggleColor() {
+        document.getElementById("btn1").classList.toggle("blue");
+        document.getElementById("btn1").classList.toggle("escolhido");
+      }
+
+      function showhide()
+     {
+           var div = document.getElementById("infoff");
+            if (div.style.display !== "none") {
+                div.style.display = "none";
+            }
+            else {
+                div.style.display = "block";
+            }
+             }
+    </script>
+  </body>
+</html>
