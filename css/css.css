@@ -643,7 +643,8 @@ footer {
     justify-content: center;
 }
 .lh {
-    flex-basis:500px!important;
+    width: 370px;
+    min-width: 33%;
 }
 .v-icon-titulo {
     color: #fff;
@@ -1284,7 +1285,7 @@ div.panel.show {
     height: 50px;
     text-align: center;
     font-size: 14px;
-    width: 100%;
+    width: 100%!important;
     margin-bottom: 10px;
 }
 .data-final {
@@ -1294,7 +1295,7 @@ div.panel.show {
     height: 50px;
     text-align: center;
     font-size: 14px;
-    width: 100%
+    width: 100%!important
 }
 .cotas {
     padding-top: 20px;
@@ -1307,10 +1308,10 @@ div.panel.show {
     color: #6d7073;
     font-size: 14px;
     padding-bottom: 10px;
-    width: 140px;
+    width: 70%;
 }
 .paa {
-    width: 50px!important;
+    width: 25%!important;
 }
 .n-cotas {
     font-size: 22px;
@@ -1318,7 +1319,7 @@ div.panel.show {
     border-radius: 5px;
     border: 1px solid #6d7073;
     text-align: center;
-    width: 50px;
+    width: 100%;
 }
 .cc {
     width: 100%!important;
@@ -2672,7 +2673,7 @@ select option {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
 .menurespp {
-        display: none;
+    display: none;
 }
 
 @media (max-width: 600px) {
@@ -2685,11 +2686,11 @@ select option {
     overflow: scroll;
 }
 
-    .menuresp {
-        display: none;
-    }
-    .menurespp {
-        display: block;
+.menuresp {
+    display: none;
+}
+.menurespp {
+    display: block;
 }
 }
 
@@ -2794,7 +2795,7 @@ select option {
   border-radius: 50%;
   margin: 0 4px;
   padding: 4px;
-  background: #3a3a3a;
+  background:#6d7073;
 }
 .csslider > .navigation label:hover:after {
   opacity: 1;
@@ -2806,7 +2807,7 @@ select option {
   top: 50%;
   margin-left: -6px;
   margin-top: -6px;
-  background: #71ad37;
+  background:#e96f33;
   border-radius: 50%;
   padding: 6px;
   opacity: 0;
@@ -2922,15 +2923,15 @@ a.nice-link:hover:after {
 @-webkit-keyframes sign-anim {
   to {
     background-position: 0 -7140px;
-  }
+}
 }
 @-moz-keyframes sign-anim {
   to {
     background-position: 0 -7140px;
-  }
+}
 }
 @keyframes sign-anim {
   to {
     background-position: 0 -7140px;
-  }
+}
 }
