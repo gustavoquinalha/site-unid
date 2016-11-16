@@ -1093,8 +1093,8 @@ footer {
 }
 .fundo-compra {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -1103,7 +1103,7 @@ footer {
 }
 .compra-esp {
     width: 90%;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -1250,7 +1250,6 @@ div.panel {
     background-color: white;
     transition: 1s;
     color: #6d7073;
-    margin-top: 5px;
     font-family: 'Open Sans', sans-serif!important;
     position: relative;
 
@@ -1285,7 +1284,8 @@ div.panel.show {
     height: 50px;
     text-align: center;
     font-size: 14px;
-    width: 100%!important;
+    width: 99%!important;
+    min-width: 200px;
     margin-bottom: 10px;
 }
 .data-final {
@@ -1295,7 +1295,8 @@ div.panel.show {
     height: 50px;
     text-align: center;
     font-size: 14px;
-    width: 100%!important
+    width: 99%!important;
+    min-width: 200px;
 }
 .cotas {
     padding-top: 20px;
@@ -1311,7 +1312,8 @@ div.panel.show {
     width: 70%;
 }
 .paa {
-    width: 25%!important;
+    width: 27%!important;
+    margin: 0 auto
 }
 .n-cotas {
     font-size: 22px;
@@ -1602,8 +1604,37 @@ div.panel.show {
 .f1 {
     background: url(../images/filmes/capa1.jpg) 100% !important;
     background-size: cover!important;
-    background-position: center center!important;
+    background-position: center bottom!important;
     transition: 1s;
+    max-width: 400px;
+}
+.f2 {
+    background: url(../images/filmes/capa2.jpg) 100% !important;
+    background-size: cover!important;
+    background-position: center bottom!important;
+    transition: 1s;
+    max-width: 400px;
+}
+.f3 {
+    background: url(../images/filmes/capa3.jpg) 100% !important;
+    background-size: cover!important;
+    background-position: center bottom!important;
+    transition: 1s;
+    max-width: 400px;
+}
+.f4 {
+    background: url(../images/filmes/capa4.jpg) 100% !important;
+    background-size: cover!important;
+    background-position: center bottom!important;
+    transition: 1s;
+    max-width: 400px;
+}
+.f5 {
+    background: url(../images/filmes/capa5.jpg) 100% !important;
+    background-size: cover!important;
+    background-position: center bottom!important;
+    transition: 1s;
+    max-width: 400px;
 }
 .filme-cartaz:hover {
     filter: -ms-blur(50%);
@@ -2159,34 +2190,6 @@ select option {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*filmes*/
 .worko-tabs {
     margin: 0 auto;
@@ -2215,8 +2218,10 @@ select option {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  -webkit-flex-basis:100px
-  flex-basis:100px;
+    width: 100%;
+    min-width: 100px;
+    border:2px solid #fff;
+
 
 }
 .worko-tabs .flex-tabs .panel {
@@ -2229,12 +2234,10 @@ select option {
 }
 .worko-tabs .tab {
   display: inline-block;
-
   vertical-align: top;
   background-color: #fff;
   cursor: hand;
   cursor: pointer;
-  border: 1px solid ;
 }
 .worko-tabs .tab:hover {
   background-color: #fff;
@@ -2245,9 +2248,8 @@ select option {
 #tab-three:checked ~ .tabs #tab-three-label,
 #tab-four:checked ~ .tabs #tab-four-label,
 #tab-five:checked ~ .tabs #tab-five-label {
-  background-color: #fff;
+  background-color: #000;
   cursor: default;
-  border-color: #69be28;
 }
 
 #tab-one:checked ~ .tabs #tab-one-panel,
@@ -2256,9 +2258,12 @@ select option {
 #tab-four:checked ~ .tabs #tab-four-panel,
 #tab-five:checked ~ .tabs #tab-five-panel {
   display: block;
+  background: #000
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 780px) {
   .flex-tabs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2266,13 +2271,7 @@ select option {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.flex-tabs .tab {
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-}
-.flex-tabs .tab:last-of-type {
-    border-bottom: none;
-}
+
 .flex-tabs #tab-one-label {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -2335,25 +2334,7 @@ select option {
     order: 10;
 }
 
-#tab-one:checked ~ .tabs #tab-one-label,
-#tab-two:checked ~ .tabs #tab-two-label,
-#tab-three:checked ~ .tabs #tab-three-label,
-#tab-four:checked ~ .tabs #tab-four-label,
-#tab-five:checked ~ .tabs #tab-five-label {
-    border-bottom: none;
 }
-
-#tab-one:checked ~ .tabs #tab-one-panel,
-#tab-two:checked ~ .tabs #tab-two-panel,
-#tab-three:checked ~ .tabs #tab-three-panel,
-#tab-four:checked ~ .tabs #tab-four-panel,
-#tab-five:checked ~ .tabs #tab-five-panel {
-    border-bottom: 1px solid #ccc;
-}
-}
-/*filmes*/
-
-
 
 .esqueci {
     color: #25c622;
@@ -2910,3 +2891,93 @@ input[type="date"]:before {
   input[type="date"]:valid:before {
     content: "";
   }
+
+
+   @-webkit-keyframes alpha {
+          0%{
+              opacity: 0;
+          }
+          100%{
+              opacity: 1;
+          }
+      }
+      .box-tooltips{
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+          text-align: center;
+          font-size: 0.9em;
+      }
+      .box-tooltips:after{
+          display: none;
+      }
+      .box-tooltips:hover:after{
+          display: block;
+          content: attr(data-title);
+          position: absolute;
+          top: -110px;
+          background: #fff;
+          border-radius: 4px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          width: 100%;
+          font-weight: 300;
+          border:1px solid #6d7073;
+          color: #6d7073;
+          font-size: 1.1em;
+          -webkit-animation: alpha 0.5s ease-out;
+      }
+
+.cor-b {
+    color: #bcc3c6;
+    font-size: 1.2em;
+}
+
+.closeP {
+    display: none!important
+}
+.openP {
+    display: block!important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
