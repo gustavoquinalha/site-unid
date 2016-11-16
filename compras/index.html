@@ -9,17 +9,44 @@
   <link rel="stylesheet" href="../css/font-awesome.css" charset="utf-8">
 </head>
 <body>
-  <div class="menu-topo">
-    <div class="menu fundo">
-      <div class="icon-all l1">
-        <div class="logo">
-          <a href="../index.html"><img src="../images/logo.png" style="width:120px;">
+
+
+      <div class="novo-menu">
+        <div class="nm-logo">
+          <div class="logo">
+            <a href="index.html"><img src="../images/logo.png" style="width:120px;"></a>
           </div>
-        </a>
+        </div>
+        <div class="nm-logo fd"></div>
+        <div class="nm-logo nn menuresp">
+         <div class="mnu">
+           <div class="espac">
+            <a href="anunciantes.html">ANUNCIANTES</a>
+          </div>
+          <div class="espac">
+            <a href="exibidores.html">EXIBIDORES</a>
+          </div>
+          <div class="espac esa">
+            <label for="modal-toggle" class="entrar-btn">ENTRAR</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="nm-logo nn menurespp">
+       <div class="fundo-menur">
+        <div class="mnu">
+
+
+          <div class="espac esa">
+            <div class="imamenu">
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
 <div class="comprar-barra">
   <div class="barra-fundo">
     <div class="v1 volt">
@@ -98,7 +125,40 @@
         <div class="area-midias">
           <div class="midias" style="order:1">
             <button class="accordion">
-              <i class="fa fa-desktop cor-detail" aria-hidden="true"></i> Mídia em tela
+              <img src="../images/svg/midia.svg" class="cor-preta" style="width:12px"> Mídia em tela
+            </button>
+            <div class="panel">
+              <div class="insercoes">
+                <p>Inserções 4 / 120 mÊS</p>
+              </div>
+              <div class="periodo">
+                <div class="p-titulo">
+                  Período
+                </div>
+                <div class="data-periodo">
+                  <input type="date" name="data-inicio" class="data-inicio" placeholder="Início">
+                </div>
+                <div class="data-periodo">
+                  <input type="date" name="data-final" class="data-final" placeholder="Final">
+                </div>
+              </div>
+              <div class="cotas">
+                <div class="p-cotas paa">
+                  Cotas<br>
+                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
+                </div>
+                <div class="p-cotas">
+                  Valor R$<br>
+                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
+                </div>
+              </div>
+              <button class="plano">Plano Atual: ANUAL</button>
+              <button class="alterarplano">Alterar plano</button>
+            </div>
+          </div>
+          <div class="midias" style="order:1">
+            <button class="accordion">
+              <img src="../images/svg/acao.svg" class="cor-preta" style="width:12px"> Ação Promocional
             </button>
             <div class="panel">
               <div class="insercoes">
@@ -125,17 +185,13 @@
                   <input type="text" name="quantity" value="2.300" class="n-cotas cc">
                 </div>
               </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
+                <button class="plano">Plano Atual: ANUAL</button>
+                <button class="alterarplano">Alterar plano</button>
             </div>
           </div>
           <div class="midias" style="order:1">
             <button class="accordion">
-              <i class="fa fa-font-awesome cor-detail" aria-hidden="true"></i> Ação Promocional
+              <img src="../images/svg/videowall.svg" class="cor-preta" style="width:18px"> Videowall
             </button>
             <div class="panel">
               <div class="insercoes">
@@ -162,54 +218,13 @@
                   <input type="text" name="quantity" value="2.300" class="n-cotas cc">
                 </div>
               </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
+              <button class="plano">Plano Atual: ANUAL</button>
+              <button class="alterarplano">Alterar plano</button>
             </div>
           </div>
           <div class="midias" style="order:1">
             <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Videowall
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Bomboniere
+              <img src="../images/svg/bomboniere.svg" class="cor-preta" style="width:30px"> Bomboniere
             </button>
             <div class="panel">
               <div class="insercoes">
@@ -236,17 +251,13 @@
                   <input type="text" name="quantity" value="2.300" class="n-cotas cc">
                 </div>
               </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
+              <button class="plano">Plano Atual: ANUAL</button>
+              <button class="alterarplano">Alterar plano</button>
             </div>
           </div>
           <div class="midias" style="order:1">
             <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Naming Rights
+              <img src="../images/svg/naming.svg" class="cor-preta" style="width:10px"> Naming Rights
             </button>
             <div class="panel">
               <div class="insercoes">
@@ -273,17 +284,13 @@
                   <input type="text" name="quantity" value="2.300" class="n-cotas cc">
                 </div>
               </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
+              <button class="plano">Plano Atual: ANUAL</button>
+              <button class="alterarplano">Alterar plano</button>
             </div>
           </div>
           <div class="midias" style="order:1">
             <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Eventos
+              <img src="../images/svg/eventos.svg" class="cor-preta" style="width:10px"> Eventos
             </button>
             <div class="panel">
               <div class="insercoes">
@@ -310,479 +317,15 @@
                   <input type="text" name="quantity" value="2.300" class="n-cotas cc">
                 </div>
               </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
+              <button class="plano">Plano Atual: ANUAL</button>
+              <button class="alterarplano">Alterar plano</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="compra-cont">
-      <div class="compra-cidade">
-        <div class="cidade-titulo">
-          <i class="fa fa-arrow-down fa-lg cor-preta" aria-hidden="true"></i> <span>Londrina</span>
-        </div>
-        <div class="area-midias">
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-desktop cor-detail" aria-hidden="true"></i> Mídia em tela
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-font-awesome cor-detail" aria-hidden="true"></i> Ação Promocional
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Videowall
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Bomboniere
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Naming Rights
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Eventos
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="compra-cont">
-      <div class="compra-cidade">
-        <div class="cidade-titulo">
-          <i class="fa fa-arrow-down fa-lg cor-preta" aria-hidden="true"></i> <span>Curitiba</span>
-        </div>
-        <div class="area-midias">
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-desktop cor-detail" aria-hidden="true"></i> Mídia em tela
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-font-awesome cor-detail" aria-hidden="true"></i> Ação Promocional
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Videowall
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Bomboniere
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Naming Rights
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-          <div class="midias" style="order:1">
-            <button class="accordion">
-              <i class="fa fa-arrow-down cor-detail fa-lg" aria-hidden="true"></i> Eventos
-            </button>
-            <div class="panel">
-              <div class="insercoes">
-                <p>Inserções 4 / 120 mÊS</p>
-              </div>
-              <div class="periodo">
-                <div class="p-titulo">
-                  Período
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-inicio" class="data-inicio">
-                </div>
-                <div class="data-periodo">
-                  <input type="date" name="data-final" class="data-final">
-                </div>
-              </div>
-              <div class="cotas">
-                <div class="p-cotas paa">
-                  Cotas<br>
-                  <input type="number" name="quantity" min="01" max="05" value="01" class="n-cotas" style="flex-grow:1">
-                </div>
-                <div class="p-cotas">
-                  Valor R$<br>
-                  <input type="text" name="quantity" value="2.300" class="n-cotas cc">
-                </div>
-              </div>
-              <div class="plano">
-                <a href="">Plano Atual: ANUAL</a>
-              </div>
-              <div class="alterarplano">
-                <a href="">Alterar plano</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+    
     <div class="compra-botao">
       <button>Próximo <i class="fa fa-arrow-right cp" style="font-size:14px;" aria-hidden="true"></i></button>
     </div>
@@ -1043,7 +586,7 @@
         <!--TESTE-->
         <div class="worko-tabs">
 
-          <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one"/>
+          <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked/>
           <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
           <input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
           <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
